@@ -29,6 +29,7 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: medium;
 }
 
 html {
@@ -40,6 +41,11 @@ html {
 a {
   text-decoration: none;
   color: var(--accent-color);
+}
+
+.project-tile a {
+  text-decoration: underline;
+  color: white;
 }
 
 p {
@@ -311,7 +317,7 @@ h2 {
 .project-description p{
   font-size: x-small;
   line-height: 15px;
-  margin: 10px 0;
+  margin: 12px 0;
 }
 
 .timeline {
@@ -349,6 +355,10 @@ h2 {
 
 .timeline-item {
   margin: 50px 0;
+}
+
+.timeline-item p {
+  font-size: 12px;
 }
 
 form {
